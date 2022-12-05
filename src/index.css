@@ -1,0 +1,122 @@
+body{
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8caf800b-ed3d-457c-a11c-b638561a12f9/dabdslr-abd66b49-2327-4066-93ca-2bdafd9b4d1e.png/v1/fill/w_1024,h_600,q_80,strp/more_airbrush_background_practice_by_wolfgal44_dabdslr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAwIiwicGF0aCI6IlwvZlwvOGNhZjgwMGItZWQzZC00NTdjLWExMWMtYjYzODU2MWExMmY5XC9kYWJkc2xyLWFiZDY2YjQ5LTIzMjctNDA2Ni05M2NhLTJiZGFmZDliNGQxZS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Tlm_fBQeW1aPKssUyu-0iOxMOkiRjA6xb11eUdYAWSA");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.app{
+  display: flex;
+  padding: 30px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.game{
+  width: 560px;
+  height: 560px;
+  display: flex;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: #ecc694;
+  box-shadow: 10px 5px 5px #493c3c;
+  z-index: 1;
+}
+
+.game img{
+  width: 70px;
+  height: 70px;
+}
+.score {
+  position: absolute;
+  width: 200px;
+  background-color: bisque ;
+  box-shadow: 10px 5px 5px #493c3c;
+  border-radius: 15px;
+  top: 220px;
+  right: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.title{
+  text-shadow: 2px 2px #211f21;
+  color: #e53ecf;
+  text-decoration: underline;
+  text-align: center;
+  font-style: oblique 40deg;
+  font-size: 60px;
+  margin: 0;
+}
+.score1 {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: bisque ;
+  box-shadow: 10px 5px 5px #493c3c;
+  border-radius: 15px;
+  top: 400px;
+  right: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.numbers {
+  font-size: 30px;
+  margin-top: 5px;
+  font-family: oblique;
+  font-weight: bold;
+}
+.modal{
+  background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-children-s-day-candy-promotion-background-material-picture-image_1008704.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 800px;
+  height: 600px;
+  margin: 50px auto;
+  border-radius: 12px;
+  z-index: 100;
+}
+.title_time{
+  margin: 3px;
+}
+.containerModal {
+  text-align: center;
+  padding-top: 80px;
+}
+.startBtn {
+  width: 200px;
+  height: 70px;
+  font-family: oblique;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  color: darkred;
+  margin-top: 150px;
+}
+.modalTitle {
+  text-shadow: 2px 2px #211f21;
+  color: #da4571;
+  text-decoration: underline;
+  text-align: center;
+  font-style: oblique 40deg;
+  font-size: 60px;
+}
+.modalAsk{
+  color: #4634a2;
+  text-align: center;
+  font-style: oblique 40deg;
+  font-size: 40px;
+}
+.finish {
+  background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-children-s-day-candy-promotion-background-material-picture-image_1008704.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+  z-index: 1000;
+}
