@@ -122,44 +122,45 @@ body{
 }
 @media screen and (max-width: 600px){
   .modal{
-    width: 150px;
-    height: 200px;
+    width: 70px;
+    height: auto;
     margin: 0 auto;
   }
   .finish {
-    width: 150px;
-    height: 200px;
+    width: 70px;
+    height: auto;
     margin: 0 auto;
   }
   .containerModal {
     padding-top: 10px;
   }
   .startBtn {
-    width: 70px;
-    height: 30px;
-    font-size: 12px;
-    margin-top: 20px;
+    width: 40px;
+    height: 20px;
+    border-radius: 8px;
+    font-size: 8px;
+    margin-top: 10px;
   }
   .modalTitle {
     text-shadow: none;
     font-style: normal;
-    font-size: 20px;
+    font-size: 10px;
   }
   .modalAsk{
-    font-size: 20px;
+    font-size: 8px;
   }
   .game{
-    width: 200px;
-    height: 200px;
-    padding: 5px;
+    width: 70px;
+    height: 70px;
+    padding: 1px;
   }
   .game img{
-    width: 25px;
-    height: 25px;
+    width: 8px;
+    height: 8px;
   }
   .title{
     text-shadow:none;
-    font-size: 20px;
+    font-size: 8px;
   }
   .app {
     margin: 0px;
@@ -167,22 +168,27 @@ body{
   }
   .score {
     position: absolute;
-    width: 70px;
-    top: 20px;
-    right: 10px;
+    width: 30px;
+    top: 120px;
+    right: 175px;
+    box-shadow: none;
+    border-radius: 5px;
   }
   .numbers {
-    font-size: 15px;
+    font-size: 10px;
   }
   .score1 {
     position: absolute;
-    width: 70px;
-    height: 60px;
-    top: 100px;
-    right: 10px;
+    width: 40px;
+    top: 120px;
+    left: 165px;
+    box-shadow: none;
+    height: auto;
+    border-radius: 5px;
+
   }
   .title_time {
-    font-size: 12px;
+    font-size: 5px;
   }
 
 
