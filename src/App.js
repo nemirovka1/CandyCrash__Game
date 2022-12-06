@@ -264,8 +264,8 @@ const App = () => {
                             ))}
                         </div>
                         <div className="score">
-                            <h1>Total</h1>
-                            <h2>{scoreDisplay}</h2>
+                            <h1 className="title">Total</h1>
+                            <h2 className='numbers'>{scoreDisplay}</h2>
                         </div>
                         <div className="score1">
                             <>
