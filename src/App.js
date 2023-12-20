@@ -240,11 +240,21 @@ const App = () => {
 
     return (
         <>
-
             {showModal || seconds === 0 ? showModalWindow()
                 :
                 <>
                     <h1 className='title'>CANDY CRUSH</h1>
+                    <div style={{marginTop: 30,display: 'flex', flexDirection: "row", gap: 40, justifyContent: 'center', alignItems: 'center'}}>
+                        <div className="score">
+                            <h2 className="title_time">Total</h2>
+                            <h2 className='numbers'>{scoreDisplay}</h2>
+                        </div>
+                        <div className="score">
+                                <h2 className="title_time">Remaining Time</h2>
+                                <h2 className='numbers'>{seconds}</h2>
+                        </div>
+                    </div>
+
                     <div className="app">
                         <div className="game">
                             {currentColorArrangement.map((candyColor, index) => (
@@ -263,16 +273,7 @@ const App = () => {
                                 />
                             ))}
                         </div>
-                        <div className="score">
-                            <h1 className="title">Total</h1>
-                            <h2 className='numbers'>{scoreDisplay}</h2>
-                        </div>
-                        <div className="score1">
-                            <>
-                                <h2 className="title_time">Remaining Time</h2>
-                                <div className='numbers'>{seconds}</div>
-                            </>
-                        </div>
+
                     </div>
                 </>
 
